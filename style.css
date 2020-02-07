@@ -1,5 +1,24 @@
-#mainbody{
+#body{
+    background-image: url("images/cover.jpeg");
     background-size: cover;
     width: 100%;
     height: auto;
 }
+/*display the meinfo element inline and remove the dots*/
+#meinfo{
+    list-style-type: none;
+    opacity: 70%;
+    
+    
+}
+#meinfolist{
+    display: inline-block;
+    padding-right: 30px;border: 1pt aqua solid;
+    background-color: beige;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration-color: black;
+
+    
+}
+
