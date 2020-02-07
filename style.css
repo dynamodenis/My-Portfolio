@@ -13,12 +13,30 @@
 }
 #meinfolist{
     display: inline-block;
-    padding-right: 30px;border: 1pt aqua solid;
+    padding-right: 30px;
+    border: 1pt aqua solid;
     background-color: beige;
     border-radius: 5px;
     font-weight: bold;
-    text-decoration-color: black;
-
-    
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+/*when you hover round the link it will turn red*/
+a:hover{
+    color: red;
+}
+/*when you visit the link it turns blue*/
+ a:active{
+    color:green;
 }
 
+img{
+    border-radius: 50px;
+    opacity: 90%;
+}
+h1{
+    font-weight: bolder;
+    font-size: larger;
+}
