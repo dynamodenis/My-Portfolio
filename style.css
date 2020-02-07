@@ -1,5 +1,5 @@
-#body{
-    background-color: cornflowerblue;
+body{
+    background-image: url("images/index.jpeg");
     background-size: cover;
     width: 100%;
     
@@ -54,8 +54,10 @@ h1{
     font-style: oblique;
     text-shadow: silver;
     font-size: 1.5em;
+    color: whitesmoke;
 }
 #footer{
+    color: whitesmoke;
     text-align: center;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -63,7 +65,16 @@ h1{
   
 
 /*this css designs the about me page*/
-body{
+#mebody{
     background-color: cornsilk;
+    border: 0.5pt black solid;
+    margin:40px;
+    height: auto;
+    padding: 30px;
+    border-radius: 100px;
+    border-bottom-color: darkgrey;
+    border-bottom-width: 4pt;
+    border-top-color: darkgrey;
+    border-top-width: 4pt;
 }
 
