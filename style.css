@@ -66,8 +66,8 @@ h1{
 
 /*this css designs the about me page*/
 #mebody{
-    background-color: cornsilk;
-    border: 0.5pt black solid;
+    background-image: url("images/about.jpeg");
+    border: 0pt black solid;
     margin:40px;
     height: auto;
     padding: 30px;
@@ -76,5 +76,22 @@ h1{
     border-bottom-width: 4pt;
     border-top-color: darkgrey;
     border-top-width: 4pt;
+    width: auto;
+    display: block;
+
+}
+/*change all headings of the headlines in the body*/
+#mebody h1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    text-align: left;
+    color: darkslategray;
+}
+p{
+    font-size: 1.5em;
+}
+#hobbies img{
+    display: inline-block;
 }
 
