@@ -141,3 +141,15 @@ label{
     padding-left: 190px;
     font-weight: bold;
 }
+
+/* this css styles the projects page*/
+#container{
+    width: 90%;
+    margin:auto;
+}
+.projects{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#projects{
+
+}
