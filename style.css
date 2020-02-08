@@ -34,16 +34,16 @@
     font-weight: bold;
     font-size: 22px;
 }
-a{
-    text-decoration: none;
-}
 /*when you hover round the link it will turn red*/
 a:hover{
-    color: red;
+    background-color: red;
 }
 /*when you visit the link it turns blue*/
  a:active{
-    color:green;
+    background-color:green;
+}
+a:visited{
+    background-color: green;
 }
 
 img{
@@ -93,6 +93,22 @@ h1{
     display: block;
 
 }
+/*add navigation links of about me, contact,projects page*/
+#aboutme{
+    background-color: seashell;
+    border-radius: 15px;
+    margin: 0px;
+}
+#aboutmelink{
+    list-style-type: none;
+}
+#aboutmelink li{
+    display: inline-block;
+    padding: 10px;
+    padding-left:20px ;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
 /*change all headings of the headlines in the body*/
 #mebody h1{
     font-style: italic;
@@ -132,6 +148,9 @@ input[type=button]{
     background-color: brown;
     font-size:1.5em;
 }
+input[type=button]:hover{
+    background-color: red;
+}
 h1{
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -144,12 +163,29 @@ label{
 
 /* this css styles the projects page*/
 #container{
-    width: 90%;
+    width: 95%;
     margin:auto;
+    background-image: url("images/about.jpeg");
+    border: 1pt brown solid;
+    border-radius: 15pt;
+    padding: 20px;
+
 }
 .projects{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-decoration: underline;
+    margin: auto;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+
+    
 }
 #projects{
-
+    background-color: burlywood;
+    border-radius: 10pt;
+    margin-left: 10px;
+    
 }
+
