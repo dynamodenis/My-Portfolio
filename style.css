@@ -15,7 +15,7 @@
     border-radius: 50%;
 }
 #icons li:hover{
-    color: royalblue;
+    background-color: blue;
 }
 /*display the meinfo element inline and remove the dots*/
 #meinfo{
@@ -39,9 +39,6 @@ a:hover{
     background-color: red;
 }
 /*when you visit the link it turns blue*/
- a:active{
-    background-color:green;
-}
 a:visited{
     background-color: green;
 }
