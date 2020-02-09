@@ -36,4 +36,8 @@ Just by any chance you get caught up or the site is not responding to certain re
 
 ---
 ## License
+By Dynamo Denis Mbugua
 
+License by [MIT LICENSE](LICENSE.txt)
+
+---
