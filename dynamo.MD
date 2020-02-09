@@ -13,6 +13,7 @@ The basic feature and language used is _html_ and _css_ but its still under deve
 ---
 ## Future To-Do List 
 
+<<<<<<< HEAD
 - Add more projects that am going to develop or be involved in to improve my public portfolio.
 - Make the site more responsive by adding __Javascript__ or any other programming language.
 
@@ -41,3 +42,5 @@ By Dynamo Denis Mbugua
 License by [MIT LICENSE](LICENSE.txt)
 
 ---
+=======
+>>>>>>> cb187b7... added a readme.md file
